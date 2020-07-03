@@ -4,7 +4,7 @@ import EventNoteIcon from '@material-ui/icons/EventNote';
 function Header() {
   return (
     <header>
-      <h1>
+      <h1 className="ml-3">
         <EventNoteIcon />
         Take Note
       </h1>

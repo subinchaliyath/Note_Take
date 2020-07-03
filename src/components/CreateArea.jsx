@@ -36,8 +36,9 @@ function CreateArea(props) {
   }
 
   return (
-    <div>
-      <form className="create-note">
+    <div className="container">
+      <div className="row">
+      <form className="create-note col-7 col-sm-7 col-md-6">
         {isExpanded && (
           <input
             name="title"
@@ -61,6 +62,8 @@ function CreateArea(props) {
           </Fab>
         </Zoom>
       </form>
+      </div>
+      
     </div>
   );
 }
